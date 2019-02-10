@@ -9,21 +9,19 @@
 /* Begin PBXBuildFile section */
 		7FAC2723220FF32400C31809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC2722220FF32400C31809 /* AppDelegate.swift */; };
 		7FAC2725220FF32400C31809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC2724220FF32400C31809 /* ViewController.swift */; };
-		7FAC2728220FF32400C31809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAC2726220FF32400C31809 /* Main.storyboard */; };
 		7FAC272A220FF32700C31809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAC2729220FF32700C31809 /* Assets.xcassets */; };
-		7FAC272D220FF32700C31809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAC272B220FF32700C31809 /* LaunchScreen.storyboard */; };
 		7FAC2735220FF5E900C31809 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC2734220FF5E900C31809 /* DetailViewController.swift */; };
+		7FAC273D2210EB7B00C31809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAC273C2210EB7B00C31809 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FAC271F220FF32400C31809 /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FAC2722220FF32400C31809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FAC2724220FF32400C31809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FAC2727220FF32400C31809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FAC2729220FF32700C31809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7FAC272C220FF32700C31809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FAC272E220FF32700C31809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FAC2734220FF5E900C31809 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7FAC273C2210EB7B00C31809 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +57,9 @@
 				7FAC2722220FF32400C31809 /* AppDelegate.swift */,
 				7FAC2724220FF32400C31809 /* ViewController.swift */,
 				7FAC2734220FF5E900C31809 /* DetailViewController.swift */,
-				7FAC2726220FF32400C31809 /* Main.storyboard */,
 				7FAC2729220FF32700C31809 /* Assets.xcassets */,
-				7FAC272B220FF32700C31809 /* LaunchScreen.storyboard */,
 				7FAC272E220FF32700C31809 /* Info.plist */,
+				7FAC273C2210EB7B00C31809 /* Main.storyboard */,
 			);
 			path = "To Do List";
 			sourceTree = "<group>";
@@ -125,9 +122,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FAC272D220FF32700C31809 /* LaunchScreen.storyboard in Resources */,
+				7FAC273D2210EB7B00C31809 /* Main.storyboard in Resources */,
 				7FAC272A220FF32700C31809 /* Assets.xcassets in Resources */,
-				7FAC2728220FF32400C31809 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,25 +141,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7FAC2726220FF32400C31809 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FAC2727220FF32400C31809 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7FAC272B220FF32700C31809 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FAC272C220FF32700C31809 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7FAC272F220FF32700C31809 /* Debug */ = {
